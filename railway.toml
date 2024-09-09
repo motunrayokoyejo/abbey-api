@@ -1,0 +1,3 @@
+[post-deploy]
+[post-deploy.commands]
+command = "php artisan migrate --force"
